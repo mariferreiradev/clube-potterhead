@@ -1,37 +1,57 @@
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body {
-    margin: 0;
+    margin: auto 0;
     background-image: url(/assets/img/background-potter.png);
     background-repeat: no-repeat;
     background-size: auto;
 }
-.header-pag-embarcar {
+.header-page-boarding {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8% 10%;
+    padding: 8%;
+    margin: 0 auto;
 }
 .title-header {
     width: 90%;
 }
-.main-pag-embarcar {
+.main-page-boarding {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
-.texto-pag-embarcar {
+.text-page-boarding {
     margin: 0;
     text-align: center;
-    font-size: 1rem;
     width: 70%;
+    font-size: 0.8rem;
 }
-.img-plataforma {
+.btn-boarding {
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    padding: 2% 5%;
+    margin-top: 5%;
+}
+.btn-boarding a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.img-platform {
     width: 230%;
 }
-.rodape {
+.footnote {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 0.8rem;
+    margin: 0 auto;
+}
+.contact img {
+    width: 40px;
 }
