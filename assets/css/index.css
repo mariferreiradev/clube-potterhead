@@ -40,7 +40,7 @@ body {
     border-radius: 30px;
     background-color: black;
     padding: 2% 9%;
-    margin-top: 5%;
+    margin-top: 6%;
 }
 .btn-boarding a {
     color: #ffffff;
@@ -48,13 +48,14 @@ body {
 }
 .img-platform {
     width: 60%;
-    padding: 10% 0;
+    padding: 6% 0 10% 0;
 }
 .footnote {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    bottom: 0;
 }
 .footnote p {
     text-align: center;
