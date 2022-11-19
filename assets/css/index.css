@@ -1,23 +1,24 @@
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: auto 0;
-    background-image: url(/assets/img/background-potter.png);
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-color: #CEB13D;
+}
+.container {
+    max-width: max-content;
+    margin: 0 auto;
 }
 .header-page-boarding {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8%;
-    margin: 0 auto;
+    padding: 8% 0;
 }
 .title-header {
     width: 90%;
@@ -26,38 +27,59 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
 }
 .text-page-boarding {
     margin: 0;
     text-align: center;
     width: 70%;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    padding: 5% 0;
 }
 .btn-boarding {
     border: none;
     border-radius: 30px;
     background-color: black;
-    padding: 2% 5%;
+    padding: 2% 9%;
     margin-top: 5%;
 }
 .btn-boarding a {
     color: #ffffff;
-    text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 .img-platform {
-    width: 100%;
+    width: 60%;
+    padding: 10% 0;
 }
 .footnote {
-    margin: 0;
-    padding: 5%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+.footnote p {
+    text-align: center;
     font-size: 0.8rem;
-    margin: 0 auto;
+    padding: 5% 0;
+    width: 100%;
+    margin: 0;
 }
 .contact img {
     width: 40px;
+}
+
+@media (min-width: 640px) { 
+    
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 1024px) {
+
+}
+@media (min-width: 1280px) {
+
+}
+@media (min-width: 1536px) {
+
 }
