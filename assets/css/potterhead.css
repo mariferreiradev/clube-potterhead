@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    margin: 0 auto;
+}
+.header-ph {
+    margin: 0;
+}
+.header-ph img {
+    width: 100%;
+}
