@@ -7,7 +7,27 @@ body {
 }
 .header-ph {
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
-.header-ph img {
+.title-header {
+    width: 150px;
+    left: 45%;
+    top: 6%;
+    position: absolute;
+    z-index: 1;
+}
+.img-header {
     width: 100%;
+    position: absolute;
+}
+.cite-hp {
+    width: 40%;
+    top: 13%;
+    left: 5%;
+    text-align: center;
+    color: white;
+    font-size: 0.5rem;
+    position: absolute;
+    z-index: 1;
 }
