@@ -1,33 +1,17 @@
 * {
     box-sizing: border-box;
+    overflow: hidden;
 }
 body {
     background-color: black;
+    max-width: 1200px;
     margin: 0 auto;
 }
-.header-ph {
-    margin: 0;
+.hero-ph {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
-.title-header {
-    width: 150px;
-    left: 45%;
-    top: 6%;
-    position: absolute;
-    z-index: 1;
-}
-.img-header {
+.hero-ph img {
     width: 100%;
-    position: absolute;
-}
-.cite-hp {
-    width: 40%;
-    top: 13%;
-    left: 5%;
-    text-align: center;
-    color: white;
-    font-size: 0.5rem;
-    position: absolute;
-    z-index: 1;
 }
