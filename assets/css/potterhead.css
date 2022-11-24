@@ -1,11 +1,18 @@
 * {
     box-sizing: border-box;
-    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 body {
     background-color: black;
+}
+.container {
     max-width: 1200px;
     margin: 0 auto;
+}
+.main-ph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .hero-ph {
     display: flex;
@@ -14,4 +21,39 @@ body {
 }
 .hero-ph img {
     width: 100%;
+}
+.sections-hogwarts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-text h1{
+    color: #CEB13D;
+    font-weight: 800;
+    font-size: 1rem;
+    text-align: center;
+}
+.section-text p{
+    color: white;
+    font-weight: 600;
+    font-size: 0.6rem;
+    text-align: center;
+}
+.section-text img {
+    width: 200px
+}
+.section-img {
+    display: flex;
+    justify-content: center;
+}
+.section-img img{
+    width: 130px
+}
+.title-library {
+    width: 60%;
 }
