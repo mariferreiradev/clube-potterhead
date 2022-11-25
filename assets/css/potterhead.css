@@ -6,8 +6,11 @@ body {
     background-color: black;
 }
 .container {
-    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
     margin: 0 auto;
+    gap: 30px;
 }
 .main-ph {
     display: flex;
@@ -18,6 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 15px;
 }
 .hero-ph img {
     width: 100%;
@@ -26,20 +30,23 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 .section-text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 8px;
 }
 .section-text h1{
+    margin: 0;
     color: #CEB13D;
     font-weight: 800;
     font-size: 1rem;
     text-align: center;
 }
 .section-text p{
+    margin: 0;
     color: white;
     font-weight: 600;
     font-size: 0.6rem;
@@ -67,5 +74,31 @@ body {
     font-size: 1rem;
 }
 .title-library {
-    width: 60%;
+    display: flex;
+    align-items: center;
+    padding: 15px 0
+}
+.img-library {
+    width: 180px;
+    padding: 15px 0;
+}
+.films {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.films h1 {
+    color: #CEB13D;
+    font-weight: 800;
+    font-size: 1rem;
+}
+.books {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.books h1 {
+    color: #CEB13D;
+    font-weight: 800;
+    font-size: 1rem;
 }
