@@ -6,12 +6,16 @@
 }
 body {
     background-color: black;
+    margin: 0 auto;
 }
 .nav-ph {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 15px 10px;
 }
 .logo-ph img {
+    display: flex;
     filter: invert(100%);
     width: 100px;
 }
@@ -28,9 +32,10 @@ body {
     width: 30px;
 }
 .index-mobile a {
+    background-color: black;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 0;
     color: white;
     font-size: 1rem;
@@ -40,7 +45,7 @@ body {
     flex-direction: column;
     max-width: 280px;
     margin: 0 auto;
-    gap: 30px;
+    gap: 40px;
 }
 .main-ph {
     display: flex;
@@ -112,20 +117,10 @@ body {
     width: 180px;
     padding: 15px 0;
 }
-.films {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
 .films h1 {
     color: #CEB13D;
     font-weight: 800;
     font-size: 1rem;
-}
-.books {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 .books h1 {
     color: #CEB13D;
@@ -150,4 +145,7 @@ body {
 .contact img {
     width: 30px;
     filter: invert(100%);
+}
+.hidden {
+    display: none;
 }
