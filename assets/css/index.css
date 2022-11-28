@@ -11,8 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #CEB13D;
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 .container {
     max-width: 1200;
@@ -60,6 +59,7 @@ body {
     justify-content: center;
     align-items: center;
     bottom: 0;
+    margin-top: auto;
 }
 .footnote p {
     text-align: center;

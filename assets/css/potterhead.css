@@ -7,6 +7,7 @@
 body {
     background-color: black;
     margin: 0 auto;
+    min-height: 100vh;
 }
 .nav-ph {
     display: flex;
@@ -128,6 +129,7 @@ body {
     font-size: 1rem;
 }
 .footnote {
+    margin-top: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
