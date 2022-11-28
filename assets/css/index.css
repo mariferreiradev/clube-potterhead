@@ -4,6 +4,7 @@
     text-decoration: none;
 }
 body {
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,9 +73,9 @@ body {
 }
 
 @media (min-width: 500px) {
-    body {
-        align-items: center;
-        justify-content: center;
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
     }
     .header-page-boarding {
         padding: 0 0 6% 0;
