@@ -4,17 +4,16 @@
     text-decoration: none;
 }
 body {
-    overflow: hidden;
-    margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    overflow: hidden;
+    display: flex;
     background-color: #CEB13D;
     min-height: 100vh;
 }
 .container {
-    max-width: 1200;
+    max-width: 300px;
     margin: 0 auto;
 }
 .header-page-boarding {
@@ -24,7 +23,7 @@ body {
     padding: 0 0 8% 0;
 }
 .title-header {
-    width: 90%;
+    width: 80%;
 }
 .main-page-boarding {
     display: flex;
@@ -35,7 +34,7 @@ body {
     margin: 0;
     text-align: center;
     width: 70%;
-    font-size: 1rem;
+    font-size: .9rem;
     padding: 5% 0;
 }
 .btn-boarding {
@@ -73,6 +72,10 @@ body {
 }
 
 @media (min-width: 500px) {
+    body {
+        align-items: center;
+        justify-content: center;
+    }
     .header-page-boarding {
         padding: 0 0 6% 0;
     }
