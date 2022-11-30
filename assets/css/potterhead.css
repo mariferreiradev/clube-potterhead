@@ -44,7 +44,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 280px;
+    max-width: 300px;
     margin: 0 auto;
     gap: 40px;
 }
@@ -123,10 +123,17 @@ body {
     font-weight: 800;
     font-size: 1rem;
 }
+.card-movie img {
+    width: 150px;
+    border-radius: 05px;
+}
 .books h1 {
     color: #CEB13D;
     font-weight: 800;
     font-size: 1rem;
+}
+.card-book img {
+    width: 180px;
 }
 .footnote {
     margin-top: auto;
