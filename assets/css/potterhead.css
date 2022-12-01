@@ -127,6 +127,10 @@ body {
     width: 150px;
     border-radius: 05px;
 }
+.card-movie p, .card-book p {
+    color: white;
+    font-size: 0.6rem;
+}
 .books h1 {
     color: #CEB13D;
     font-weight: 800;
