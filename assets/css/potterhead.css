@@ -137,13 +137,12 @@ body {
     width: 120px;
     text-align: center;
 }
-.books h1 {
-    color: #CEB13D;
-    font-weight: 800;
-    font-size: 1rem;
+.cards-books {
+    display: flex;
+    gap: 10px;
 }
 .card-book img {
-    width: 180px;
+    width: 130px;
 }
 .footnote {
     margin-top: auto;
