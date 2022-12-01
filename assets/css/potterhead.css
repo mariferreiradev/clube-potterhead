@@ -118,18 +118,24 @@ body {
     width: 180px;
     padding: 15px 0;
 }
-.films h1 {
-    color: #CEB13D;
-    font-weight: 800;
-    font-size: 1rem;
+.cards-movies {
+    display: flex;
+    gap: 20px;
+}
+.card-movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .card-movie img {
-    width: 150px;
+    width: 100px;
     border-radius: 05px;
 }
 .card-movie p, .card-book p {
     color: white;
     font-size: 0.6rem;
+    width: 120px;
+    text-align: center;
 }
 .books h1 {
     color: #CEB13D;
