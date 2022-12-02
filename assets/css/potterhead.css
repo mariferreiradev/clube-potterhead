@@ -18,7 +18,7 @@ body {
 .logo-ph img {
     display: flex;
     filter: invert(100%);
-    width: 100px;
+    height: 30px;
 }
 .menu-mobile {
     display: flex;
@@ -26,6 +26,8 @@ body {
     align-items: flex-end;
 }
 .btn-menu {
+    display: flex;
+    align-items: center;
     background-color: transparent;
     border: none;
     padding: 0;
