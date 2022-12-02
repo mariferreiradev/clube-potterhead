@@ -62,7 +62,7 @@ body {
     margin-bottom: 15px;
 }
 .hero-ph img {
-    width: 300px;
+    width: 350px;
 }
 .sections-hogwarts {
     display: flex;
@@ -87,7 +87,7 @@ body {
     margin: 0;
     color: white;
     font-weight: 600;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     text-align: center;
 }
 .section-text img {
@@ -98,7 +98,7 @@ body {
     justify-content: center;
 }
 .section-img img{
-    width: 130px
+    width: 170px
 }
 .btn-ph {
     border: none;
@@ -135,8 +135,8 @@ body {
 }
 .card-movie p, .card-book p {
     color: white;
-    font-size: 0.6rem;
-    width: 120px;
+    font-size: 0.7rem;
+    width: 130px;
     text-align: center;
 }
 .cards-books {
