@@ -11,9 +11,16 @@ body {
 }
 .nav-ph {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+}
+.navbar {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px 10px;
+    width: 300px;
 }
 .logo-ph img {
     display: flex;
@@ -23,7 +30,8 @@ body {
 .menu-mobile {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    width: 100%;
 }
 .btn-menu {
     display: flex;
@@ -34,14 +42,24 @@ body {
     height: 30px;
     width: 30px;
 }
-.index-mobile a {
-    background-color: black;
+.index-mobile {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.menu-list {
+    padding: 6px 0;
+    border-bottom: 1px solid white;
+}
+.menu-list:last-child {
+    border: none
+}
+.menu-list a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
     color: white;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 .container {
     display: flex;
@@ -86,19 +104,19 @@ body {
 .section-text p{
     margin: 0;
     color: white;
-    font-weight: 600;
-    font-size: 0.7rem;
+    font-weight: 500;
+    font-size: 0.8rem;
     text-align: center;
 }
 .section-text img {
-    width: 200px
+    width: 250px
 }
 .section-img {
     display: flex;
     justify-content: center;
 }
 .section-img img{
-    width: 170px
+    width: 175px
 }
 .btn-ph {
     border: none;
