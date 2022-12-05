@@ -1,15 +1,18 @@
 const btnMenu = document.querySelector('.btn-menu')
 const menuMobile = document.querySelector('.menu-mobile')
+const iconMenu = document.querySelector('.icon-menu')
 
 let isMenuOpen = false
 
 function toggleMenu(){
-    if (isMenuOpen) {
-        btnMenu.setAttribute('src', '/clube-potterhead/assets/img/icon-menu.png')
+    if (isMenuOpen === true) {
+        iconMenu.setAttribute('src', '/assets/img/icon-menu.png')
         isMenuOpen = false
+        menuMobile.classList.add('hidden')
     } else {
-        btnMenu.setAttribute('src', '/clube-potterhead/assets/img/icon-x.png')
+        iconMenu.setAttribute('src', '/assets/img/icon-x.png')
         isMenuOpen = true
+        menuMobile.classList.remove('hidden')
     }
      
 }
