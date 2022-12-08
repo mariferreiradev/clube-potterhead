@@ -1,6 +1,7 @@
 const btnMenu = document.querySelector('.btn-menu')
 const menuMobile = document.querySelector('.menu-mobile')
 const iconMenu = document.querySelector('.icon-menu')
+const topicosMenu = document.querySelectorAll('.topicos-menu')
 
 let isMenuOpen = false
 
@@ -13,8 +14,11 @@ function toggleMenu(){
         iconMenu.setAttribute('src', './assets/img/icon-x.png')
         isMenuOpen = true
         menuMobile.classList.remove('hidden')
-    }
-     
+    }  
 }
+
+topicosMenu.forEach((topicosMenu) => {
+    topicosMenu.addEventListener('click', toggleMenu)
+});
 
 btnMenu.addEventListener('click', toggleMenu)

@@ -6,21 +6,34 @@
 }
 body {
     background-color: black;
-    margin: 0 auto;
     min-height: 100vh;
+    margin: 0;
 }
-.nav-ph {
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 45px;
+    padding: 0 20px;
+}
+.header-ph {
+    padding: 15px 20px;
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px 10px;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
 }
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 10px;
-    width: 300px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .logo-ph img {
     display: flex;
@@ -32,6 +45,8 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .btn-menu {
     display: flex;
@@ -39,16 +54,18 @@ body {
     background-color: transparent;
     border: none;
     padding: 0;
-    height: 30px;
-    width: 30px;
 }
 .index-mobile {
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 .menu-list {
-    padding: 6px 0;
+    padding: 10px 0;
     border-bottom: 1px solid white;
 }
 .menu-list:last-child {
@@ -60,13 +77,6 @@ body {
     align-items: center;
     color: white;
     font-size: 0.9rem;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    margin: 0 auto;
-    gap: 45px;
 }
 .main-ph {
     display: flex;
@@ -81,12 +91,14 @@ body {
 }
 .hero-ph img {
     width: 350px;
+    margin-top: 70px;
 }
 .sections-hogwarts {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    scroll-margin-top: 100px;
 }
 .section-text {
     display: flex;
@@ -122,7 +134,7 @@ body {
     border: none;
     border-radius: 30px;
     background-color: #CEB13D;
-    padding: 2% 6%;
+    padding: 8px 15px;
     margin-top: 6%;
 }
 .btn-ph a {
@@ -191,14 +203,17 @@ body {
     border: none;
     border-radius: 10px;
 }
-.footnote {
+.footer-ph {
     margin-top: auto;
+    bottom: 0;
+}
+.footnote {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    bottom: 0;
     gap: 10px;
+    margin-bottom: 10px;
 }
 .footnote p {
     color: white;

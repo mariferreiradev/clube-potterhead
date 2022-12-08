@@ -11,27 +11,25 @@
     <title>Document</title>
 </head>
 <body>
-    <header id="ancora-inicio" class="header-ph container">
-        <nav class="nav-ph">
-            <div class="navbar">
-                <div class="logo-ph">
-                    <img src="./assets/img/potterhead.png" alt="Logo Potterhead" />
-                </div>
-                <button class="btn-menu">
-                    <img class="icon-menu" src="./assets/img/icon-menu.png" alt="Ícone menu" width="20px" />
-                </button>
+    <header class="header-ph">
+        <nav class="navbar">
+            <div class="logo-ph">
+                <img src="./assets/img/potterhead.png" alt="Logo Potterhead" />
             </div>
-            <div class="menu-mobile hidden">
-                <ul class="index-mobile">
-                    <li class="menu-list"><a href="#ancora-inicio">Ínicio</a></li>
-                    <li class="menu-list"><a href="#ancora-quiz">Quiz</a></li>
-                    <li class="menu-list"><a href="#ancora-library">Library</a></li>
-                    <li class="menu-list"><a href="#ancora-convite">Convite</a></li>  
-                </ul>
-            </div>
+            <button class="btn-menu">
+                <img class="icon-menu" src="./assets/img/icon-menu.png" alt="Ícone menu" width="20px" />
+            </button>
         </nav>
+        <div class="menu-mobile hidden">
+            <ul class="index-mobile">
+                <li class="menu-list"><a class="topicos-menu" href="#ancora-inicio">Ínicio</a></li>
+                <li class="menu-list"><a class="topicos-menu" href="#ancora-quiz">Quiz</a></li>
+                <li class="menu-list"><a class="topicos-menu" href="#ancora-library">Library</a></li>
+                <li class="menu-list"><a class="topicos-menu" href="#ancora-convite">Convite</a></li>  
+            </ul>
+        </div>
     </header>
-    <main class="main-ph">
+    <main id="ancora-inicio" class="main-ph">
         <div class="hero-ph">
             <img src="./assets/img/hero-img.png" alt="Castelo Hogwarts" />
         </div>
@@ -188,8 +186,8 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div class="footnote container">
+    <footer class="footer-ph container">
+        <div class="footnote">
             <p>Desenvolvido por Mariana Ferreira</p>
             <div class="contact">
                 <a href="https://github.com/mariferreiradev" target="_blank">
