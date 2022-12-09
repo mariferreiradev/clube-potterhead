@@ -55,7 +55,6 @@ body {
     padding: 20px;
 }
 .footer-ph {
-    margin-top: auto;
     bottom: 0;
 }
 .footnote {
@@ -71,7 +70,6 @@ body {
     text-align: center;
     font-size: 0.8rem;
     width: 100%;
-    margin: 0;
 }
 .contact img {
     width: 30px;
