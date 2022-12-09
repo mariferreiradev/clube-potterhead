@@ -4,10 +4,11 @@
     text-decoration: none;
     list-style: none;
 }
-body {
+html, body {
     background-color: black;
     min-height: 100vh;
     margin: 0;
+    scroll-behavior: smooth;
 }
 .container {
     display: flex;

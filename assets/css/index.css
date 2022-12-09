@@ -43,10 +43,7 @@ body {
     border: none;
     border-radius: 30px;
     background-color: black;
-    padding: 2% 6%;
     margin-top: 6%;
-}
-.btn-boarding a {
     color: #ffffff;
     font-size: 1rem;
 }
