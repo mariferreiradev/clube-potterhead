@@ -5,14 +5,12 @@
     margin: 0;
 }
 body {
-    margin: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    overflow: hidden;
-    display: flex;
+    height: 100vh;
     background-color: #CEB13D;
-    min-height: 100vh;
 }
 .container {
     max-width: 300px;
@@ -20,59 +18,63 @@ body {
 }
 .header-page-boarding {
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 0 0 8% 0;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
 }
 .title-header {
-    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-header img {
+    width: 250px;
 }
 .main-page-boarding {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 .text-page-boarding {
-    margin: 0;
     text-align: center;
-    width: 70%;
+    width: 250px;
     font-size: .9rem;
-    padding: 5% 0;
 }
 .btn-boarding {
     border: none;
     border-radius: 30px;
     background-color: black;
-    margin-top: 6%;
+    margin-top: 20px;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: .9rem;
+    padding: 7px 14px;
 }
 .img-platform {
-    width: 50%;
-    padding: 6% 0 10% 0;
+    width: 200px;
+    padding: 20px;
+}
+.footer-ph {
+    margin-top: auto;
+    bottom: 0;
 }
 .footnote {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    bottom: 0;
-    margin-top: auto;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 .footnote p {
+    color: black;
     text-align: center;
     font-size: 0.8rem;
-    padding: 5% 0;
     width: 100%;
     margin: 0;
 }
-.contact a {
-    width: 41px;
-    height: 41px;
-}
 .contact img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
 }
 
 @media (min-width: 500px) {
@@ -80,110 +82,21 @@ body {
         max-width: 1200px;
         margin: 0 auto;
     }
-    .header-page-boarding {
-        padding: 0 0 6% 0;
-    }
-    .title-header {
-        width: 60%;
-    }
     .text-page-boarding {
+        width: 400px;
         font-size: 1rem;
-        padding: 4% 0;
     }
     .btn-boarding {
-        margin-top: 4%;
-    }
-    .btn-boarding a {
         font-size: 1rem;
-    }
-    .img-platform {
-        width: 40%;
-        padding: 4% 0 6% 0;
+        padding: 8px 15px;
     }
     .footnote p {
-        font-size: 1rem;
+        font-size: .8rem;
     }
 }
 
-@media (min-width: 640px) {
-    .header-page-boarding {
-        padding: 2% 0 4% 0;
-    }
-    .title-header {
-        width: 60%;
-    }
-    .text-page-boarding {
-        width: 80%;
-        font-size: 1.2rem;
-        padding: 4% 0;
-    }
-    .btn-boarding {
-        padding: 1.5% 6%;
-    }
-    .btn-boarding a {
-        font-size: 1.2rem;
-    }
-    .img-platform {
-        width: 35%;
-        padding: 4% 0;
-    }
-    .footnote p {
-        font-size: 1rem;
-    }
-}
 @media (min-width: 768px) {
-    .header-page-boarding {
-        padding: 3% 0 3% 0;
-    }
-    .title-header {
-        width: 45%;
-    }
     .text-page-boarding {
-        padding: 2% 0;
-    }
-    .btn-boarding {
-        padding: 1% 4%;
-    }
-    .img-platform {
-        width: 25%;
-        padding: 2% 0;
-    }
-}
-@media (min-width: 1024px) {
-    .title-header {
-        width: 35%;
-    }
-    .text-page-boarding {
-        font-size: 1rem;
-    }
-    .btn-boarding {
-        padding: 1% 2.5%;
-    }
-    .btn-boarding a {
-        font-size: 1rem;
-    }
-    .img-platform {
-        width: 25%;
-    }
-    .footnote p {
-        font-size: 0.8rem;
-    }
-    .contact img {
-        width: 30px;
-    }
-
-}
-@media (min-width: 1280px) {
-    .title-header {
-        width: 30%;
-    }
-    .text-page-boarding {
-        font-size: 0.9rem;
-    }
-    .btn-boarding a {
-        font-size: 0.8rem;
-    }
-    .img-platform {
-        width: 20%;
+        width: 500px;
     }
 }
