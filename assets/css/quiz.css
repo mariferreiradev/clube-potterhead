@@ -45,6 +45,19 @@ body {
     justify-content: center;
     padding: 0 20px;
 }
+.div-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.btn-quiz {
+    border: none;
+    border-radius: 30px;
+    background-color: #CEB13D;
+    padding: 8px 15px;
+    margin-top: 10px;
+}
 .houses {
     display: flex;
     flex-direction: column;
