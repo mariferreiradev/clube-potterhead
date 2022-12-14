@@ -39,6 +39,7 @@ body {
     gap: 12px;
 }
 .quiz-result {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,6 +53,7 @@ body {
     width: 100%;
 }
 .btn-quiz {
+    font-size: .8rem;
     border: none;
     border-radius: 30px;
     background-color: #CEB13D;
@@ -71,6 +73,13 @@ body {
 .houses img {
     width: 150px;
     margin: 10px 0;
+}
+.btn-result {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 .footer-ph {
     margin-top: auto;
