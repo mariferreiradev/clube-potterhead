@@ -132,6 +132,7 @@ html, body {
     width: 175px
 }
 .btn-ph {
+    cursor: pointer;
     border: none;
     border-radius: 30px;
     background-color: #CEB13D;

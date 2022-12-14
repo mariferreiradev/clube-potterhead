@@ -40,12 +40,13 @@ body {
     text-align: center;
     width: 250px;
     font-size: .9rem;
+    margin-bottom: 25px;
 }
 .btn-boarding {
+    cursor: pointer;
     border: none;
     border-radius: 30px;
     background-color: black;
-    margin-top: 20px;
     color: #ffffff;
     font-size: .9rem;
     padding: 7px 14px;

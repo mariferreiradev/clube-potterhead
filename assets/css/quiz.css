@@ -38,8 +38,15 @@ body {
     font-size: .8rem;
     gap: 12px;
 }
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.options label {
+    padding: 0 5px;
+}
 .quiz-result {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,6 +60,7 @@ body {
     width: 100%;
 }
 .btn-quiz {
+    cursor: pointer;
     font-size: .8rem;
     border: none;
     border-radius: 30px;
@@ -61,6 +69,7 @@ body {
     margin-top: 10px;
 }
 .houses {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,11 +84,13 @@ body {
     margin: 10px 0;
 }
 .btn-result {
-    margin-top: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
+}
+.btn-house {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
 }
 .footer-ph {
     margin-top: auto;
