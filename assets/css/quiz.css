@@ -46,6 +46,9 @@ body {
 .options label {
     padding: 0 5px;
 }
+.options input {
+    accent-color: #ffe600;
+}
 .quiz-result {
     display: flex;
     flex-direction: column;
