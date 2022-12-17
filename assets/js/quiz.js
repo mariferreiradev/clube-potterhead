@@ -29,22 +29,22 @@ function resultQuiz(e) {
         }
     });
 
-    if (grifinoria > sonserina && grifinoria > corvinal && grifinoria > lufaLufa){
+    if (grifinoria >= sonserina && grifinoria >= corvinal && grifinoria >= lufaLufa){
         footer.classList.add('hidden')
         header.classList.add('hidden')
         quiz.classList.add('hidden')
         casaGrifinoria.classList.remove('hidden')
-    } else if (sonserina > grifinoria && sonserina > corvinal && sonserina > lufaLufa) {
+    } else if (sonserina >= grifinoria && sonserina >= corvinal && sonserina >= lufaLufa) {
         footer.classList.add('hidden')
         header.classList.add('hidden')
         quiz.classList.add('hidden')
         casaSonserina.classList.remove('hidden')
-    } else if (corvinal > grifinoria && corvinal > sonserina && corvinal > lufaLufa) {
+    } else if (corvinal >= grifinoria && corvinal >= sonserina && corvinal >= lufaLufa) {
         footer.classList.add('hidden')
         header.classList.add('hidden')
         quiz.classList.add('hidden')
         casaCorvinal.classList.remove('hidden')
-    } else if (lufaLufa > grifinoria && lufaLufa > sonserina && lufaLufa > corvinal) {
+    } else if (lufaLufa >= grifinoria && lufaLufa >= sonserina && lufaLufa >= corvinal) {
         footer.classList.add('hidden')
         header.classList.add('hidden')
         quiz.classList.add('hidden')
