@@ -231,3 +231,41 @@ html, body {
 .hidden {
     display: none;
 }
+
+@media (min-width: 500px) {
+    .btn-menu {
+        display: none;
+    }
+    .header-ph {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: initial;
+        margin: 0;
+    }
+    .menu-mobile {
+        display: flex;
+        margin: 0;
+    }
+    .index-mobile {
+        background-color: black;
+        display: flex;
+        width: initial;
+        height: initial;
+        position: initial;
+        gap: 40px;
+        margin: 0;
+    }
+    .menu-list {
+        border: none;
+    }
+}
+
+@media (min-width: 768px) {
+
+}
