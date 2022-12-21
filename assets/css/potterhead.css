@@ -16,10 +16,10 @@ html, body {
     max-width: 1200px;
     margin: 0 auto;
     gap: 45px;
-    padding: 0 20px;
+    padding: 0 25px;
 }
 .header-ph {
-    padding: 15px 20px;
+    padding: 15px 25px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -237,9 +237,6 @@ html, body {
         position: fixed;
         width: 100%;
     }
-    .btn-menu {
-        display: none;
-    }
     .header-ph {
         max-width: 1200px;
         margin: 0 auto;
@@ -255,6 +252,12 @@ html, body {
         width: auto;
         margin: 0;
     }
+    .logo-ph img {
+        height: 35px;
+    }
+    .btn-menu {
+        display: none;
+    }
     .menu-mobile {
         display: flex;
         width: auto;
@@ -262,7 +265,7 @@ html, body {
     }
     .index-mobile {
         background-color: black;
-        gap: 50px;
+        gap: 40px;
         display: flex;
         width: 100%;
         height: initial;
@@ -271,6 +274,34 @@ html, body {
     }
     .menu-list {
         border: none;
+    }
+    .menu-list a {
+        font-size: 1rem;
+    }
+    .hero-ph img {
+        width: 500px;
+        margin-top: 90px;
+    }
+    .container {
+        padding: 0 40px;
+    }
+    .section-text h1{
+        font-size: 1.2rem;
+    }
+    .section-text p{
+        font-size: 1rem;
+    }
+    .img-library {
+        width: 250px;
+    }
+    .card-movie p, .card-book p {
+        font-size: 0.9rem;
+    }
+    .text-cvt {
+        font-size: 1rem;
+    }
+    .footnote p {
+        font-size: 0.8rem;
     }
 }
 
