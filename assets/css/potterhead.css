@@ -233,32 +233,40 @@ html, body {
 }
 
 @media (min-width: 500px) {
+    .container-nav {
+        position: fixed;
+        width: 100%;
+    }
     .btn-menu {
         display: none;
     }
     .header-ph {
+        max-width: 1200px;
+        margin: 0 auto;
+        position: initial;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
     .navbar {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        width: initial;
+        justify-content: initial;
+        width: auto;
         margin: 0;
     }
     .menu-mobile {
         display: flex;
+        width: auto;
         margin: 0;
     }
     .index-mobile {
         background-color: black;
+        gap: 50px;
         display: flex;
-        width: initial;
+        width: 100%;
         height: initial;
         position: initial;
-        gap: 40px;
         margin: 0;
     }
     .menu-list {
