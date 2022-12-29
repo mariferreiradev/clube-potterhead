@@ -306,5 +306,41 @@ html, body {
 }
 
 @media (min-width: 768px) {
+    .container {
+        gap: 70px;
+    }
+    .hero-ph img {
+        width: 650px;
+        margin-bottom: 60px;
+    }
+    .section-img img{
+        width: 200px
+    }
+    .section-text img {
+        width: 400px;
+    }
+    .school, .students, .quiz {
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+    }
+    .section-text p{
+        width: 400px;
+    }
+    .students, .quiz {
+        flex-direction:row-reverse;
+    }
+    .houses .section-text p {
+        width: 600px;
+    }
+    .movies, .books {
+        display: flex;
+        flex-flow: wrap;
+        width: 700px;
+        justify-content: center;
+    }
+    .card-movie p, .card-book p {
+        width: 160px;
+    }
 
 }
