@@ -122,3 +122,51 @@ body {
 .hidden {
     display: none;
 }
+
+@media (min-width: 500px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .questions {
+        width: 400px;
+    }
+    .question {
+        font-size: 1rem;
+    }
+    .title-quiz img {
+        width: 300px;
+    }
+}
+@media (min-width: 800px) {
+    .title-quiz {
+        padding: 40px 20px;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .questions {
+        width: 600px;
+    }
+    .question {
+        font-size: 1.2rem;
+    }
+    .btn-quiz {
+        font-size: 1.2rem;
+        padding: 10px 15px;
+        margin-top: 10px;
+    }
+    .footnote p {
+        margin-top: 50px;
+        font-size: 1rem;
+    }
+    .contact img {
+        width: 40px;
+    }
+}
+@media (min-width: 1200px) {
+    .questions {
+        width: 800px;
+    }
+}

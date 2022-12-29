@@ -355,3 +355,26 @@ html, body {
         margin-bottom: 70px;
     }
 }
+@media (min-width: 1200px) {
+    .school, .students, .quiz {
+        gap: 80px;
+    }
+    .hero-ph img {
+        width: 900px;
+    }
+    .section-text h1 {
+        font-size: 1.5rem;
+    }
+    .section-text p {
+        width: 500px;
+    }
+    .section-img img{
+        width: 280px
+    }
+    .section-text img {
+        width: 600px;
+    } 
+    .img-library {
+        width: 350px;
+    }
+}
