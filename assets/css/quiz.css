@@ -137,6 +137,17 @@ body {
     .title-quiz img {
         width: 300px;
     }
+    .houses img {
+        width: 250px;
+    }
+    .houses {
+        font-size: 1.2rem;
+    }
+    .btn-quiz {
+        font-size: 1.2rem;
+        padding: 10px 15px;
+        margin-top: 10px;
+    }
 }
 @media (min-width: 800px) {
     .title-quiz {
@@ -146,16 +157,11 @@ body {
         max-width: 1200px;
         margin: 0 auto;
     }
-    .questions {
+    .questions, .houses p {
         width: 600px;
     }
     .question {
         font-size: 1.2rem;
-    }
-    .btn-quiz {
-        font-size: 1.2rem;
-        padding: 10px 15px;
-        margin-top: 10px;
     }
     .footnote p {
         margin-top: 50px;
@@ -164,8 +170,14 @@ body {
     .contact img {
         width: 40px;
     }
+    .houses img {
+        width: 300px;
+    }
 }
 @media (min-width: 1200px) {
+    .houses img {
+        width: 350px;
+    }
     .questions {
         width: 800px;
     }
