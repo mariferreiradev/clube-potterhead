@@ -178,6 +178,9 @@ html, body {
 .card-book img {
     width: 130px;
 }
+.subtitle-library h1{
+    padding: 15px 0;
+}
 .convite {
     margin-bottom: 45px;
     gap: 0;
@@ -305,7 +308,7 @@ html, body {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 750px) {
     .container {
         gap: 70px;
     }
@@ -342,5 +345,13 @@ html, body {
     .card-movie p, .card-book p {
         width: 160px;
     }
-
+    .subtitle-library h1{
+        padding: 25px 0;
+    }
+    .convite {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
 }
