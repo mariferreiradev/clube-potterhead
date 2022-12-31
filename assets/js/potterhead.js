@@ -29,8 +29,11 @@ function enviarMenssagem() {
     let visitante = nomeVisitante.value
     let amigo = nomeAmigo.value
     let telefone = numeroTelefone.value
-
-    console.log(`Olá ${amigo}! ${visitante} nos contou que você é super fã da maior escola de bruxaria do mundo e por isso nossa corujinha trouxe esse link até você. Conheça nossa pagina e participe do nosso quiz para decobrir a qual casa você pertênce.`)
+    let menssagem = encodeURIComponent(`Olá ${amigo}! ${visitante} nos contou que você é super fã da maior escola de bruxaria do mundo e por isso nossa corujinha trouxe esse link até você. Conheça nossa pagina e participe do nosso quiz para decobrir a qual casa você pertênce.
+    https://mariferreiradev.github.io/clube-potterhead/`)
+    let url = (`https://api.whatsapp.com/send?phone=55${telefone}&text=${menssagem}`)
+    window.open(url)
+    
 }
 
 btnMenu.addEventListener('click', toggleMenu)
